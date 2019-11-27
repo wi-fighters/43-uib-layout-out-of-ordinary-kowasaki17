@@ -2,3 +2,37 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.items{
+    height: 100px;
+    flex-basis: 500px;
+    text-align: center;
+}
+#action{
+    background: rgb(30, 144, 255);
+    flex-grow: 1;
+}
+#thriller{
+    background: rgb(190, 178, 178);
+    flex-grow: 10;
+}
+#comedy{
+    background: rgb(255, 214, 30);
+    flex-grow: 10;
+}
+#horror{
+    background: rgb(0, 0, 0);
+    flex-grow: 1;
+}
+#drama{
+    background: rgb(169, 169, 169);
+    flex-grow: 1;
+}
+#romance{
+    background: rgb(255, 0, 0);
+    flex-grow: 1;
+}
